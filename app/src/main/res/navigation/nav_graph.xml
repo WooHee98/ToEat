@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/ListFragment">
+
+    <fragment
+        android:id="@+id/ListFragment"
+        android:name="com.example.toeat.ListFragment"
+        android:label="ListFragment"
+        tools:layout="@layout/fragment_list"/>
+
+    <fragment
+        android:id="@+id/PostFragment"
+        android:name="com.example.toeat.PostFragment"
+        android:label="PostFragment"
+        tools:layout="@layout/fragment_post"/>
+
+</navigation>
